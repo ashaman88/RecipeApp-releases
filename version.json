@@ -1,14 +1,14 @@
 {
-  "version": "1.5.6",
+  "version": "1.5.7",
   "release_date": "2026-09-07",
   "changelog": [
-    "Fix H-E-B login flow (updated URL to modern my-account portal, resolving 'Invalid Page' error)",
-    "Bypass Imperva bot blocks by launching real Chrome/Edge channel (resolving Error Code 15 and text-only page)",
-    "Smart H-E-B session capture with automatic window closure and cookie persistence",
-    "Fix Gemini API key test verification (increased timeout to 15s to satisfy Google AI Studio requirements)",
+    "Fix H-E-B login layout shifting (suppressed 4000px font-probing strings pushing login card offscreen)",
+    "Stabilized H-E-B login viewport with zero-overflow and centered card presentation",
+    "Modernized H-E-B login portal and real browser channel bypass for Imperva anti-bot protection",
+    "Fix Gemini API key test verification (increased deadline to 15s to satisfy Google AI Studio requirements)",
     "Support both AIzaSy... and AQ.... Google AI Studio key formats in onboarding wizard",
     "1-Click In-App Auto-Updater from public release channel"
   ],
   "download_url": "https://github.com/ashaman88/RecipeApp-releases/releases/latest",
-  "zip_url": "https://github.com/ashaman88/RecipeApp-releases/releases/download/v1.5.6/RecipeApp_v1.5.6.zip"
+  "zip_url": "https://github.com/ashaman88/RecipeApp-releases/releases/download/v1.5.7/RecipeApp_v1.5.7.zip"
 }
