@@ -1,14 +1,14 @@
 {
-  "version": "1.5.7",
+  "version": "1.6.0",
   "release_date": "2026-09-07",
   "changelog": [
-    "Fix H-E-B login layout shifting (suppressed 4000px font-probing strings pushing login card offscreen)",
-    "Stabilized H-E-B login viewport with zero-overflow and centered card presentation",
-    "Modernized H-E-B login portal and real browser channel bypass for Imperva anti-bot protection",
-    "Fix Gemini API key test verification (increased deadline to 15s to satisfy Google AI Studio requirements)",
-    "Support both AIzaSy... and AQ.... Google AI Studio key formats in onboarding wizard",
-    "1-Click In-App Auto-Updater from public release channel"
+    "Zero-console standalone desktop app (dedicated application window via WebView2)",
+    "Windows System Tray integration (minimizes to tray on close to maintain server for mobile)",
+    "Continuous mobile access support over local Wi-Fi and Tailscale",
+    "Dedicated Mobile & Tailscale setup guide with auto-detected local and Tailscale IPs",
+    "Step-by-step 'Add to Home Screen' PWA guidance for iPhone (Safari) and Android (Chrome)",
+    "Clean application exit via Tray menu (terminates background server completely)"
   ],
   "download_url": "https://github.com/ashaman88/RecipeApp-releases/releases/latest",
-  "zip_url": "https://github.com/ashaman88/RecipeApp-releases/releases/download/v1.5.7/RecipeApp_v1.5.7.zip"
+  "zip_url": "https://github.com/ashaman88/RecipeApp-releases/releases/download/v1.6.0/RecipeApp_v1.6.0.zip"
 }
