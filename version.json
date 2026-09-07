@@ -1,13 +1,12 @@
 {
-  "version": "1.7.2",
+  "version": "1.7.3",
   "release_date": "2026-09-07",
   "changelog": [
-    "One-Time Initial Launch Authorization Gate (asks for password once on fresh setup, never on daily use)",
-    "Explicit Password-Protected Updates (prompts for password when installing in-app or CLI updates)",
-    "Full AES-256 Release Encryption & SHA-256 Password Verification",
-    "Bundled free-tier Gemini API starter key with timeout advisory",
-    "Protected existing user sessions and developer configurations"
+    "Eliminated flashing cmd console window on every user click / interaction",
+    "Deferred and silenced background Playwright browser verification",
+    "Ensured all background helper subprocesses run completely invisible (CREATE_NO_WINDOW)",
+    "Maintained full AES-256 release encryption and SHA-256 authorization gate"
   ],
   "download_url": "https://github.com/ashaman88/RecipeApp-releases/releases/latest",
-  "zip_url": "https://github.com/ashaman88/RecipeApp-releases/releases/download/v1.7.2/RecipeApp_v1.7.2.zip"
+  "zip_url": "https://github.com/ashaman88/RecipeApp-releases/releases/download/v1.7.3/RecipeApp_v1.7.3.zip"
 }
