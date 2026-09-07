@@ -4,7 +4,7 @@
   "changelog": [
     "One-Time Initial Launch Authorization Gate (asks for password once on fresh setup, never on daily use)",
     "Explicit Password-Protected Updates (prompts for password when installing in-app or CLI updates)",
-    "Full AES-256 Release Encryption with 'markisthebest'",
+    "Full AES-256 Release Encryption & SHA-256 Password Verification",
     "Bundled free-tier Gemini API starter key with timeout advisory",
     "Protected existing user sessions and developer configurations"
   ],
