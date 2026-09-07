@@ -1,11 +1,12 @@
 {
-  "version": "1.7.8",
+  "version": "1.7.9",
   "release_date": "2026-09-07",
   "changelog": [
-    "Configured custom bowl icon in window topbar/titlebar and taskbar",
-    "Enabled explicit Windows AppUserModelID to group separately from Python",
-    "Applied dual-size Win32 WM_SETICON bindings for titlebar and taskbar/Alt+Tab"
+    "Created lightweight 4 KB standalone installer Install_RecipeApp.bat for Google Drive sharing",
+    "Automated dynamic release querying, AES-256 decryption, and background environment setup",
+    "Pre-authorized app launch in user config to avoid redundant password prompts",
+    "Zero GitHub friction for friends and family (no accounts or invitations required)"
   ],
   "download_url": "https://github.com/ashaman88/RecipeApp-releases/releases/latest",
-  "zip_url": "https://github.com/ashaman88/RecipeApp-releases/releases/download/v1.7.8/RecipeApp_v1.7.8.zip"
+  "zip_url": "https://github.com/ashaman88/RecipeApp-releases/releases/download/v1.7.9/RecipeApp_v1.7.9.zip"
 }
