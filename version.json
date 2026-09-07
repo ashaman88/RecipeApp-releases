@@ -1,13 +1,13 @@
 {
-  "version": "1.7.1",
+  "version": "1.7.2",
   "release_date": "2026-09-07",
   "changelog": [
-    "Updated release encryption password to 'markisthebest'",
-    "Bundled official free-tier Gemini API starter key for instant zero-configuration setup",
-    "Enhanced free tier timeout advisory and highlighted high-speed paid tier upgrade (under $0.10/year)",
-    "Increased API client timeouts to gracefully handle peak Google free-tier queuing",
-    "Preserved local dedicated personal key configuration in user AppData"
+    "One-Time Initial Launch Authorization Gate (asks for password once on fresh setup, never on daily use)",
+    "Explicit Password-Protected Updates (prompts for password when installing in-app or CLI updates)",
+    "Full AES-256 Release Encryption with 'markisthebest'",
+    "Bundled free-tier Gemini API starter key with timeout advisory",
+    "Protected existing user sessions and developer configurations"
   ],
   "download_url": "https://github.com/ashaman88/RecipeApp-releases/releases/latest",
-  "zip_url": "https://github.com/ashaman88/RecipeApp-releases/releases/download/v1.7.1/RecipeApp_v1.7.1.zip"
+  "zip_url": "https://github.com/ashaman88/RecipeApp-releases/releases/download/v1.7.2/RecipeApp_v1.7.2.zip"
 }
