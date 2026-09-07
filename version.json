@@ -1,14 +1,13 @@
 {
-  "version": "1.6.1",
+  "version": "1.7.0",
   "release_date": "2026-09-07",
   "changelog": [
-    "Fix desktop shortcut launch visibility (window now opens visibly in front on startup instead of minimized to tray)",
-    "Single-instance enforcement (clicking shortcut restores and brings existing window to front instead of opening duplicates)",
-    "Win32 SetForegroundWindow focus guarantee on restore from system tray",
-    "Zero-console standalone desktop app (dedicated application window via WebView2)",
-    "Windows System Tray integration (minimizes to tray on close to maintain server for mobile)",
-    "Dedicated Mobile & Tailscale setup guide with auto-detected local and Tailscale IPs"
+    "Password-Protected Distribution & Updates (AES-256 encrypted release zip and seamless in-app decryption)",
+    "Bundled Gemini AI Starter Key (pre-configured shared starter key allows instant out-of-the-box meal planning)",
+    "Shared Capacity & Free Key Advisory (guides users to optionally create their own free personal key for peak speed)",
+    "Smooth 4-Step Guided Onboarding Wizard (H-E-B login smoothly advances to Google Calendar, then to Mobile setup, then to Planner)",
+    "Modular Settings & Accounts Dashboard (all 5 configuration tabs accessible at any time)"
   ],
   "download_url": "https://github.com/ashaman88/RecipeApp-releases/releases/latest",
-  "zip_url": "https://github.com/ashaman88/RecipeApp-releases/releases/download/v1.6.1/RecipeApp_v1.6.1.zip"
+  "zip_url": "https://github.com/ashaman88/RecipeApp-releases/releases/download/v1.7.0/RecipeApp_v1.7.0.zip"
 }
