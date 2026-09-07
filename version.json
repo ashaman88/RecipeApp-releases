@@ -1,11 +1,11 @@
 {
-  "version": "1.7.7",
+  "version": "1.7.8",
   "release_date": "2026-09-07",
   "changelog": [
-    "Defaulted desktop app window to maximized (full screen) on initial launch",
-    "Defaulted window to maximized on system tray icon click and restore",
-    "Enhanced Win32 SW_MAXIMIZE window foreground activation"
+    "Configured custom bowl icon in window topbar/titlebar and taskbar",
+    "Enabled explicit Windows AppUserModelID to group separately from Python",
+    "Applied dual-size Win32 WM_SETICON bindings for titlebar and taskbar/Alt+Tab"
   ],
   "download_url": "https://github.com/ashaman88/RecipeApp-releases/releases/latest",
-  "zip_url": "https://github.com/ashaman88/RecipeApp-releases/releases/download/v1.7.7/RecipeApp_v1.7.7.zip"
+  "zip_url": "https://github.com/ashaman88/RecipeApp-releases/releases/download/v1.7.8/RecipeApp_v1.7.8.zip"
 }
