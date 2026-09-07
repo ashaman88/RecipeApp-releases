@@ -1,12 +1,11 @@
 {
-  "version": "1.7.4",
+  "version": "1.7.5",
   "release_date": "2026-09-07",
   "changelog": [
-    "Added configurable H-E-B shopping browser visibility in Settings (Visible / Hidden)",
-    "Added quick 'Hide browser in background' toggle directly on the Weekly Planner sidebar",
-    "Persisted user browser visibility preferences in user_config.json",
+    "Defaulted H-E-B shopping browser to Hidden (Background Mode) for clean, silent shopping",
+    "Enabled 1-click toggle to Visible (Debug Mode) anytime from the Weekly Planner sidebar or Settings",
     "Preserved live interactive window for H-E-B 2FA / manual login"
   ],
   "download_url": "https://github.com/ashaman88/RecipeApp-releases/releases/latest",
-  "zip_url": "https://github.com/ashaman88/RecipeApp-releases/releases/download/v1.7.4/RecipeApp_v1.7.4.zip"
+  "zip_url": "https://github.com/ashaman88/RecipeApp-releases/releases/download/v1.7.5/RecipeApp_v1.7.5.zip"
 }
