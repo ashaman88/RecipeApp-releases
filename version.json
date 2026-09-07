@@ -1,12 +1,12 @@
 {
-  "version": "1.7.3",
+  "version": "1.7.4",
   "release_date": "2026-09-07",
   "changelog": [
-    "Eliminated flashing cmd console window on every user click / interaction",
-    "Deferred and silenced background Playwright browser verification",
-    "Ensured all background helper subprocesses run completely invisible (CREATE_NO_WINDOW)",
-    "Maintained full AES-256 release encryption and SHA-256 authorization gate"
+    "Added configurable H-E-B shopping browser visibility in Settings (Visible / Hidden)",
+    "Added quick 'Hide browser in background' toggle directly on the Weekly Planner sidebar",
+    "Persisted user browser visibility preferences in user_config.json",
+    "Preserved live interactive window for H-E-B 2FA / manual login"
   ],
   "download_url": "https://github.com/ashaman88/RecipeApp-releases/releases/latest",
-  "zip_url": "https://github.com/ashaman88/RecipeApp-releases/releases/download/v1.7.3/RecipeApp_v1.7.3.zip"
+  "zip_url": "https://github.com/ashaman88/RecipeApp-releases/releases/download/v1.7.4/RecipeApp_v1.7.4.zip"
 }
