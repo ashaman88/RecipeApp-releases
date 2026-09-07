@@ -1,14 +1,14 @@
 {
-  "version": "1.6.0",
+  "version": "1.6.1",
   "release_date": "2026-09-07",
   "changelog": [
+    "Fix desktop shortcut launch visibility (window now opens visibly in front on startup instead of minimized to tray)",
+    "Single-instance enforcement (clicking shortcut restores and brings existing window to front instead of opening duplicates)",
+    "Win32 SetForegroundWindow focus guarantee on restore from system tray",
     "Zero-console standalone desktop app (dedicated application window via WebView2)",
     "Windows System Tray integration (minimizes to tray on close to maintain server for mobile)",
-    "Continuous mobile access support over local Wi-Fi and Tailscale",
-    "Dedicated Mobile & Tailscale setup guide with auto-detected local and Tailscale IPs",
-    "Step-by-step 'Add to Home Screen' PWA guidance for iPhone (Safari) and Android (Chrome)",
-    "Clean application exit via Tray menu (terminates background server completely)"
+    "Dedicated Mobile & Tailscale setup guide with auto-detected local and Tailscale IPs"
   ],
   "download_url": "https://github.com/ashaman88/RecipeApp-releases/releases/latest",
-  "zip_url": "https://github.com/ashaman88/RecipeApp-releases/releases/download/v1.6.0/RecipeApp_v1.6.0.zip"
+  "zip_url": "https://github.com/ashaman88/RecipeApp-releases/releases/download/v1.6.1/RecipeApp_v1.6.1.zip"
 }
