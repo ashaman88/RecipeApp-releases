@@ -1,11 +1,13 @@
 {
-  "version": "1.7.5",
+  "version": "1.7.6",
   "release_date": "2026-09-07",
   "changelog": [
-    "Defaulted H-E-B shopping browser to Hidden (Background Mode) for clean, silent shopping",
-    "Enabled 1-click toggle to Visible (Debug Mode) anytime from the Weekly Planner sidebar or Settings",
-    "Preserved live interactive window for H-E-B 2FA / manual login"
+    "Added In-App Uninstaller under Settings > About & Storage > Danger Zone",
+    "Added standalone Uninstall_RecipeApp.bat script in the application folder",
+    "Option to preserve or permanently delete saved recipes and credentials in AppData",
+    "Safely terminates processes, removes Desktop shortcuts, and cleans up folders",
+    "Built-in protection preventing accidental uninstallation from primary Git repository"
   ],
   "download_url": "https://github.com/ashaman88/RecipeApp-releases/releases/latest",
-  "zip_url": "https://github.com/ashaman88/RecipeApp-releases/releases/download/v1.7.5/RecipeApp_v1.7.5.zip"
+  "zip_url": "https://github.com/ashaman88/RecipeApp-releases/releases/download/v1.7.6/RecipeApp_v1.7.6.zip"
 }
