@@ -1,13 +1,11 @@
 {
-  "version": "1.7.6",
+  "version": "1.7.7",
   "release_date": "2026-09-07",
   "changelog": [
-    "Added In-App Uninstaller under Settings > About & Storage > Danger Zone",
-    "Added standalone Uninstall_RecipeApp.bat script in the application folder",
-    "Option to preserve or permanently delete saved recipes and credentials in AppData",
-    "Safely terminates processes, removes Desktop shortcuts, and cleans up folders",
-    "Built-in protection preventing accidental uninstallation from primary Git repository"
+    "Defaulted desktop app window to maximized (full screen) on initial launch",
+    "Defaulted window to maximized on system tray icon click and restore",
+    "Enhanced Win32 SW_MAXIMIZE window foreground activation"
   ],
   "download_url": "https://github.com/ashaman88/RecipeApp-releases/releases/latest",
-  "zip_url": "https://github.com/ashaman88/RecipeApp-releases/releases/download/v1.7.6/RecipeApp_v1.7.6.zip"
+  "zip_url": "https://github.com/ashaman88/RecipeApp-releases/releases/download/v1.7.7/RecipeApp_v1.7.7.zip"
 }
