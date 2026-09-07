@@ -1,0 +1,11 @@
+{
+  "version": "1.5.3",
+  "release_date": "2026-09-07",
+  "changelog": [
+    "Strict user API key isolation (new users start with blank key, preventing dev secrets bleed)",
+    "Fully automated silent Python download and installation in Setup_New_User.bat",
+    "Confirm before clearing recipes from planner after Google Calendar sync",
+    "User Data Isolation (%APPDATA%\\RecipeApp)"
+  ],
+  "download_url": "https://github.com/ashaman88/MMM/releases/latest"
+}
