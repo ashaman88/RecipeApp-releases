@@ -1,13 +1,13 @@
 {
-  "version": "1.7.0",
+  "version": "1.7.1",
   "release_date": "2026-09-07",
   "changelog": [
-    "Password-Protected Distribution & Updates (AES-256 encrypted release zip and seamless in-app decryption)",
-    "Bundled Gemini AI Starter Key (pre-configured shared starter key allows instant out-of-the-box meal planning)",
-    "Shared Capacity & Free Key Advisory (guides users to optionally create their own free personal key for peak speed)",
-    "Smooth 4-Step Guided Onboarding Wizard (H-E-B login smoothly advances to Google Calendar, then to Mobile setup, then to Planner)",
-    "Modular Settings & Accounts Dashboard (all 5 configuration tabs accessible at any time)"
+    "Updated release encryption password to 'markisthebest'",
+    "Bundled official free-tier Gemini API starter key for instant zero-configuration setup",
+    "Enhanced free tier timeout advisory and highlighted high-speed paid tier upgrade (under $0.10/year)",
+    "Increased API client timeouts to gracefully handle peak Google free-tier queuing",
+    "Preserved local dedicated personal key configuration in user AppData"
   ],
   "download_url": "https://github.com/ashaman88/RecipeApp-releases/releases/latest",
-  "zip_url": "https://github.com/ashaman88/RecipeApp-releases/releases/download/v1.7.0/RecipeApp_v1.7.0.zip"
+  "zip_url": "https://github.com/ashaman88/RecipeApp-releases/releases/download/v1.7.1/RecipeApp_v1.7.1.zip"
 }
