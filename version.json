@@ -1,11 +1,13 @@
 {
-  "version": "1.5.3",
+  "version": "1.5.4",
   "release_date": "2026-09-07",
   "changelog": [
+    "1-Click In-App Auto-Updater: update directly from the app or Update_RecipeApp.bat without manual redownloads",
+    "Dedicated public release channel on RecipeApp-releases (no authentication or 404s)",
     "Strict user API key isolation (new users start with blank key, preventing dev secrets bleed)",
     "Fully automated silent Python download and installation in Setup_New_User.bat",
-    "Confirm before clearing recipes from planner after Google Calendar sync",
-    "User Data Isolation (%APPDATA%\\RecipeApp)"
+    "Confirm before clearing recipes from planner after Google Calendar sync"
   ],
-  "download_url": "https://github.com/ashaman88/MMM/releases/latest"
+  "download_url": "https://github.com/ashaman88/RecipeApp-releases/releases/latest",
+  "zip_url": "https://github.com/ashaman88/RecipeApp-releases/releases/download/v1.5.4/RecipeApp_v1.5.4.zip"
 }
