@@ -1,12 +1,14 @@
 {
-  "version": "1.7.9",
-  "release_date": "2026-09-07",
+  "version": "1.8.0",
+  "release_date": "2026-09-08",
   "changelog": [
-    "Created lightweight 4 KB standalone installer Install_RecipeApp.bat for Google Drive sharing",
-    "Automated dynamic release querying, AES-256 decryption, and background environment setup",
-    "Pre-authorized app launch in user config to avoid redundant password prompts",
-    "Zero GitHub friction for friends and family (no accounts or invitations required)"
+    "Rebranded application from RecipeApp to Mmm across desktop shell, system tray, and launchers",
+    "Seamless zero-data-loss migration from %APPDATA%\\RecipeApp to %APPDATA%\\Mmm",
+    "Optional H-E-B integration: use Mmm purely for meal planning and recipe organization without an H-E-B account",
+    "Disabled cart staging button with explanatory tooltip when H-E-B account is not linked",
+    "Enhanced Power Importer with automatic retry and rate-limit backoff on free-tier Gemini API",
+    "Documented parking lot roadmap for recurring grocery adds / weekly staples"
   ],
   "download_url": "https://github.com/ashaman88/RecipeApp-releases/releases/latest",
-  "zip_url": "https://github.com/ashaman88/RecipeApp-releases/releases/download/v1.7.9/RecipeApp_v1.7.9.zip"
+  "zip_url": "https://github.com/ashaman88/RecipeApp-releases/releases/download/v1.8.0/RecipeApp_v1.8.0.zip"
 }
