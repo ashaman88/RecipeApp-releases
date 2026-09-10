@@ -1,14 +1,13 @@
 {
-  "version": "1.8.0",
-  "release_date": "2026-09-08",
+  "version": "1.8.1",
+  "release_date": "2026-09-09",
   "changelog": [
-    "Rebranded application from RecipeApp to Mmm across desktop shell, system tray, and launchers",
-    "Seamless zero-data-loss migration from %APPDATA%\\RecipeApp to %APPDATA%\\Mmm",
-    "Optional H-E-B integration: use Mmm purely for meal planning and recipe organization without an H-E-B account",
-    "Disabled cart staging button with explanatory tooltip when H-E-B account is not linked",
-    "Enhanced Power Importer with automatic retry and rate-limit backoff on free-tier Gemini API",
-    "Documented parking lot roadmap for recurring grocery adds / weekly staples"
+    "Added Recurring Grocery Adds / Weekly Staples section to manage routine groceries (milk, eggs, bread, coffee)",
+    "Configurable item name, search term, product preference, and target quantity per staple",
+    "Seamless integration into Weekly Planner and HEB Prep List sidebar with live toggle checkboxes",
+    "Automated cart staging with Gemini AI product selection respecting explicit staple target quantities",
+    "Full offline shopping checklist support when H-E-B is not connected"
   ],
   "download_url": "https://github.com/ashaman88/RecipeApp-releases/releases/latest",
-  "zip_url": "https://github.com/ashaman88/RecipeApp-releases/releases/download/v1.8.0/RecipeApp_v1.8.0.zip"
+  "zip_url": "https://github.com/ashaman88/RecipeApp-releases/releases/download/v1.8.1/RecipeApp_v1.8.1.zip"
 }
