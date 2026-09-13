@@ -1,13 +1,16 @@
 {
-  "version": "1.8.1",
-  "release_date": "2026-09-09",
+  "version": "1.9.0",
+  "release_date": "2026-09-13",
   "changelog": [
-    "Added Recurring Grocery Adds / Weekly Staples section to manage routine groceries (milk, eggs, bread, coffee)",
-    "Configurable item name, search term, product preference, and target quantity per staple",
-    "Seamless integration into Weekly Planner and HEB Prep List sidebar with live toggle checkboxes",
-    "Automated cart staging with Gemini AI product selection respecting explicit staple target quantities",
-    "Full offline shopping checklist support when H-E-B is not connected"
+    "\ud83c\udf7d\ufe0f Dinner Check-in Shelf: Review pending scheduled meals at the top of Weekly Planner, confirm whether meals were actually made, or dismiss/skip",
+    "\ud83e\uddd2 Kid Dinner Ratings & Clean-Plate Tracking: Track per-kid eating feedback (Ate it / Passed) for every cooked dinner with historical eating percentages",
+    "\ud83e\ude84 AI Recipe Refiner: Modify recipe ingredients, cooking times, steps, and chef notes automatically using Gemini AI based on post-dinner feedback notes",
+    "\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67\u200d\ud83d\udc66 Family & Kids Setup: Configurable kid and family member profiles added to both the 5-Step Guided Onboarding Wizard and Settings & Accounts",
+    "\ud83d\udcca Kid Preferences Leaderboard: View each kid's overall clean-plate rate, top rated favorites, and disliked meals in Settings",
+    "\ud83d\uded1 Decoupled Cooking History: Prevents premature incrementing of 'times_made' upon cart staging or calendar push; only updates when confirmed cooked",
+    "\ud83c\udf73 Quick Log Cook: Ad-hoc cooking log and kid rating capture directly on recipe cards in the Recipe Database without needing a prior schedule",
+    "\u2b50 Kid-Approved Filtering & Badges: Filter Recipe Database by kid approval rates (\u226570% or per-kid \u226550%) and view live kid rating badges on recipe cards"
   ],
   "download_url": "https://github.com/ashaman88/RecipeApp-releases/releases/latest",
-  "zip_url": "https://github.com/ashaman88/RecipeApp-releases/releases/download/v1.8.1/RecipeApp_v1.8.1.zip"
+  "zip_url": "https://github.com/ashaman88/RecipeApp-releases/releases/download/v1.9.0/RecipeApp_v1.9.0.zip"
 }
