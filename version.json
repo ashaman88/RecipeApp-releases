@@ -1,16 +1,10 @@
 {
-  "version": "1.9.0",
-  "release_date": "2026-09-13",
+  "version": "1.9.1",
+  "release_date": "2026-09-15",
   "changelog": [
-    "\ud83c\udf7d\ufe0f Dinner Check-in Shelf: Review pending scheduled meals at the top of Weekly Planner, confirm whether meals were actually made, or dismiss/skip",
-    "\ud83e\uddd2 Kid Dinner Ratings & Clean-Plate Tracking: Track per-kid eating feedback (Ate it / Passed) for every cooked dinner with historical eating percentages",
-    "\ud83e\ude84 AI Recipe Refiner: Modify recipe ingredients, cooking times, steps, and chef notes automatically using Gemini AI based on post-dinner feedback notes",
-    "\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67\u200d\ud83d\udc66 Family & Kids Setup: Configurable kid and family member profiles added to both the 5-Step Guided Onboarding Wizard and Settings & Accounts",
-    "\ud83d\udcca Kid Preferences Leaderboard: View each kid's overall clean-plate rate, top rated favorites, and disliked meals in Settings",
-    "\ud83d\uded1 Decoupled Cooking History: Prevents premature incrementing of 'times_made' upon cart staging or calendar push; only updates when confirmed cooked",
-    "\ud83c\udf73 Quick Log Cook: Ad-hoc cooking log and kid rating capture directly on recipe cards in the Recipe Database without needing a prior schedule",
-    "\u2b50 Kid-Approved Filtering & Badges: Filter Recipe Database by kid approval rates (\u226570% or per-kid \u226550%) and view live kid rating badges on recipe cards"
+    "\ud83e\ude84 Debrief AI Refiner Fix: Made 'Apply adjustments to recipe with AI' checkbox always visible in the Weekly Planner dinner check-in shelf and recipe details cook log",
+    "\u26a1 Seamless Save Workflow: Eliminated the race-condition flash when typing chef notes and clicking save, ensuring recipe refinements are reliably sent to Gemini AI"
   ],
   "download_url": "https://github.com/ashaman88/RecipeApp-releases/releases/latest",
-  "zip_url": "https://github.com/ashaman88/RecipeApp-releases/releases/download/v1.9.0/RecipeApp_v1.9.0.zip"
+  "zip_url": "https://github.com/ashaman88/RecipeApp-releases/releases/download/v1.9.1/RecipeApp_v1.9.1.zip"
 }
