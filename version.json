@@ -1,10 +1,10 @@
 {
-  "version": "1.9.1",
-  "release_date": "2026-09-15",
+  "version": "1.9.2",
+  "release_date": "2026-09-29",
   "changelog": [
-    "\ud83e\ude84 Debrief AI Refiner Fix: Made 'Apply adjustments to recipe with AI' checkbox always visible in the Weekly Planner dinner check-in shelf and recipe details cook log",
-    "\u26a1 Seamless Save Workflow: Eliminated the race-condition flash when typing chef notes and clicking save, ensuring recipe refinements are reliably sent to Gemini AI"
+    "\ud83c\udf72 New Recipe: Added 'One-Pan Salmon with Herb Butter Couscous' (The Defined Dish inspired) with steamed broccoli",
+    "\ud83d\udc4d Kid Approved & Cook Log: Recorded tonight's meal execution with 100% kid approval across Jason, Bailey, Lily, and Logan"
   ],
   "download_url": "https://github.com/ashaman88/RecipeApp-releases/releases/latest",
-  "zip_url": "https://github.com/ashaman88/RecipeApp-releases/releases/download/v1.9.1/RecipeApp_v1.9.1.zip"
+  "zip_url": "https://github.com/ashaman88/RecipeApp-releases/releases/download/v1.9.2/RecipeApp_v1.9.2.zip"
 }
